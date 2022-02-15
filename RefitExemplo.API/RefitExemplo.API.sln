@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefitExemplo.API", "RefitExemplo.API\RefitExemplo.API.csproj", "{D5DC59BB-F60C-4F3E-82E0-066024D8FC5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5DC59BB-F60C-4F3E-82E0-066024D8FC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DC59BB-F60C-4F3E-82E0-066024D8FC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DC59BB-F60C-4F3E-82E0-066024D8FC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DC59BB-F60C-4F3E-82E0-066024D8FC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37860615-8F94-42D1-9C01-D8D123576160}
+	EndGlobalSection
+EndGlobal

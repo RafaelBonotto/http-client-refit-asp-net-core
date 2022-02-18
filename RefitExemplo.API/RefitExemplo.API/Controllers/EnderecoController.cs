@@ -9,7 +9,7 @@ namespace RefitExemplo.API.Controllers
     [ApiController]
     public class EnderecoController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet]        
         public async Task<EnderecoModel> GetEndereco([FromServices] IEnderecoRepository repository, [FromQuery] string cep)
         {
             return await repository.ReturnEndereco(cep);

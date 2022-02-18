@@ -32,7 +32,7 @@ namespace RefitExemplo.API
             services.AddControllers();
             services.AddRefitClient<IEnderecoRepository>().ConfigureHttpClient(c =>
             {
-                c.BaseAddress = new Uri("https://viacep.com.br/ws/");
+                c.BaseAddress = new Uri("https://viacep.com.br");
             });
             services.AddSwaggerGen(c =>
             {

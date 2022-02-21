@@ -9,5 +9,8 @@ namespace RefitExemplo.API.Interfaces
     {
         [Get("/ws/{cep}/json")]
         Task<EnderecoModel> ReturnEndereco(string cep);
+
+        [Get("/ws/{cep}/json")]
+        Task<EnderecoModel> ReturnEnderecoExemplo2(string cep);
     }
 }
